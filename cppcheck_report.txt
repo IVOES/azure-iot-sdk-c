@@ -1,0 +1,1814 @@
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:208:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:202:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:208:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:211:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:202:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:211:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:214:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:202:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:214:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:205:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:202:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iotedge_downstream_device_sample/iotedge_downstream_device_sample.c:205:14: note: protocol is overwritten
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:310:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:304:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:310:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:313:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:304:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:313:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:316:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:304:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:316:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:307:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:304:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_client_device_twin_and_methods_sample/iothub_client_device_twin_and_methods_sample.c:307:14: note: protocol is overwritten
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_client_sample_amqp_shared_methods/iothub_client_sample_amqp_shared_methods.c:80:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_client_sample_amqp_shared_methods/iothub_client_sample_amqp_shared_methods.c:77:14: note: protocol is assigned
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_client_sample_amqp_shared_methods/iothub_client_sample_amqp_shared_methods.c:80:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_client_sample_module_filter/iothub_client_sample_module_filter.c:147:9: warning: Possible null pointer dereference: filteredMessageInstance [nullPointer]
+        filteredMessageInstance->messageTrackingId = messagesReceivedByInput1Queue;
+        ^
+iothub_client/samples/iothub_client_sample_module_filter/iothub_client_sample_module_filter.c:145:39: note: Assignment 'filteredMessageInstance=NULL', assigned value is 0
+            filteredMessageInstance = NULL;
+                                      ^
+iothub_client/samples/iothub_client_sample_module_filter/iothub_client_sample_module_filter.c:147:9: note: Null pointer dereference
+        filteredMessageInstance->messageTrackingId = messagesReceivedByInput1Queue;
+        ^
+iothub_client/samples/iothub_client_sample_module_filter/iothub_client_sample_module_filter.c:55:28: style: Variable 'messageResult' is assigned a value that is never used. [unreadVariable]
+        if ((messageResult = IoTHubMessage_GetByteArray(message, &messageBody, &messageBodyLength)) != IOTHUB_MESSAGE_OK)
+                           ^
+iothub_client/samples/iothub_client_sample_module_filter/iothub_client_sample_module_filter.c:66:20: style: Variable 'messageId' is assigned a value that is never used. [unreadVariable]
+    if ((messageId = IoTHubMessage_GetMessageId(message)) == NULL)
+                   ^
+iothub_client/samples/iothub_client_sample_module_filter/iothub_client_sample_module_filter.c:68:19: style: Variable 'messageId' is assigned a value that is never used. [unreadVariable]
+        messageId = "<null>";
+                  ^
+iothub_client/samples/iothub_client_sample_module_sender/iothub_client_sample_module_sender.c:68:28: style: Variable 'temperature' is assigned a value that is never used. [unreadVariable]
+        double temperature = 0;
+                           ^
+iothub_client/samples/iothub_client_sample_module_sender/iothub_client_sample_module_sender.c:69:25: style: Variable 'humidity' is assigned a value that is never used. [unreadVariable]
+        double humidity = 0;
+                        ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:271:18: style: Variable 'retValue' is reassigned a value before the old one has been used. [redundantAssignment]
+        retValue = false;
+                 ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:269:18: note: retValue is assigned
+        retValue = false;
+                 ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:271:18: note: retValue is overwritten
+        retValue = false;
+                 ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:282:22: style: Variable 'retValue' is reassigned a value before the old one has been used. [redundantAssignment]
+            retValue = false;
+                     ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:280:22: note: retValue is assigned
+            retValue = false;
+                     ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:282:22: note: retValue is overwritten
+            retValue = false;
+                     ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:292:26: style: Variable 'retValue' is reassigned a value before the old one has been used. [redundantAssignment]
+                retValue = false;
+                         ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:290:26: note: retValue is assigned
+                retValue = false;
+                         ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/iothub_client_sample_mqtt_dm.c:292:26: note: retValue is overwritten
+                retValue = false;
+                         ^
+iothub_client/samples/iothub_client_sample_mqtt_dm/pi_device/pi.c:181:25: error: Memory leak: retValue [memleak]
+                        retValue = result;
+                        ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:177:9: style: The scope of the variable 'newInterval' can be reduced. [variableScope]
+    int newInterval;
+        ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:271:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:265:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:271:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:274:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:265:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:274:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:277:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:265:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:277:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:268:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:265:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_convenience_sample/iothub_convenience_sample.c:268:14: note: protocol is overwritten
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:197:18: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+        protocol = AMQP_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:191:18: note: protocol is assigned
+        protocol = MQTT_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:197:18: note: protocol is overwritten
+        protocol = AMQP_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:200:18: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+        protocol = AMQP_Protocol_over_WebSocketsTls;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:191:18: note: protocol is assigned
+        protocol = MQTT_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:200:18: note: protocol is overwritten
+        protocol = AMQP_Protocol_over_WebSocketsTls;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:203:18: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+        protocol = HTTP_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:191:18: note: protocol is assigned
+        protocol = MQTT_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:203:18: note: protocol is overwritten
+        protocol = HTTP_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:194:18: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+        protocol = MQTT_WebSocket_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:191:18: note: protocol is assigned
+        protocol = MQTT_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_c2d_sample/iothub_ll_c2d_sample.c:194:18: note: protocol is overwritten
+        protocol = MQTT_WebSocket_Protocol;
+                 ^
+iothub_client/samples/iothub_ll_client_shared_sample/iothub_ll_client_shared_sample.c:190:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_ll_client_shared_sample/iothub_ll_client_shared_sample.c:187:14: note: protocol is assigned
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_shared_sample/iothub_ll_client_shared_sample.c:190:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_ll_client_shared_sample/iothub_ll_client_shared_sample.c:193:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_shared_sample/iothub_ll_client_shared_sample.c:187:14: note: protocol is assigned
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_shared_sample/iothub_ll_client_shared_sample.c:193:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:89:12: style: struct member 'EVENT_INSTANCE_TAG::messageTrackingId' is never used. [unusedStructMember]
+    size_t messageTrackingId;  // For tracking the messages within the user callback.
+           ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:115:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:109:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:115:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:118:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:109:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:118:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:121:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:109:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:121:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:112:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:109:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:112:14: note: protocol is overwritten
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_ll_client_x509_sample/iothub_ll_client_x509_sample.c:78:0: information: Skipping configuration 'SAMPLE_OPENSSL_ENGINE' since the value of 'SAMPLE_OPENSSL_ENGINE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+static const char* opensslEngine = SAMPLE_OPENSSL_ENGINE;
+^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:96:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:90:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:96:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:99:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:90:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:99:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:102:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:90:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:102:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:93:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:90:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/samples/iothub_ll_telemetry_sample/iothub_ll_telemetry_sample.c:93:14: note: protocol is overwritten
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/samples/pnp/common/pnp_dps_ll.c:194:20: style: Variable 'result' is assigned a value that is never used. [unreadVariable]
+            result = false;
+                   ^
+iothub_client/samples/pnp/common/pnp_dps_ll.c:199:20: style: Variable 'result' is assigned a value that is never used. [unreadVariable]
+            result = true;
+                   ^
+iothub_client/samples/pnp/pnp_simple_thermostat/pnp_simple_thermostat.c:273:24: style: Variable 'sinceStr' is assigned a value that is never used. [unreadVariable]
+    else if ((sinceStr = json_value_get_string(rootValue)) == NULL)
+                       ^
+iothub_client/samples/pnp/pnp_temperature_controller/pnp_thermostat_component.c:218:24: style: Variable 'sinceStr' is assigned a value that is never used. [unreadVariable]
+    else if ((sinceStr = json_value_get_string(commandJsonValue)) == NULL)
+                       ^
+iothub_client/src/iothub_client_core.c:113:1: error: There is an unknown macro here somewhere. Configuration is required. If MU_DEFINE_ENUM_WITHOUT_INVALID is a macro then please configure it. [unknownMacro]
+MU_DEFINE_ENUM_WITHOUT_INVALID(USER_CALLBACK_TYPE, USER_CALLBACK_TYPE_VALUES)
+^
+iothub_client/src/iothub_client_core_ll.c:70:1: error: There is an unknown macro here somewhere. Configuration is required. If MU_DEFINE_ENUM is a macro then please configure it. [unknownMacro]
+MU_DEFINE_ENUM(CALLBACK_TYPE, CALLBACK_TYPE_VALUES)
+^
+iothub_client/src/iothub_client_ll_uploadtoblob.c:143:18: style: The scope of the variable 'json_obj' can be reduced. [variableScope]
+    JSON_Object* json_obj;
+                 ^
+iothub_client/src/iothub_client_properties.c:120:9: style: The scope of the variable 'currentOutputBytes' can be reduced. [variableScope]
+    int currentOutputBytes;
+        ^
+iothub_client/src/iothub_client_properties.c:84:18: error: va_list 'arg_list' was opened but not closed by va_end(). [va_end_missing]
+        return -1;
+                 ^
+iothub_client/src/iothub_client_retry_control.c:98:9: style: The scope of the variable 'tick_result' can be reduced. [variableScope]
+    int tick_result;
+        ^
+iothub_client/src/iothubtransport_amqp_telemetry_messenger.c:874:20: style: Variable 'list_item' is assigned a value that is never used. [unreadVariable]
+    if ((list_item = singlylinkedlist_get_head_item(instance->in_progress_list)) == NULL)
+                   ^
+iothub_client/src/iothubtransport_amqp_twin_messenger.c:278:48: style: Variable 'amqp_value_value' is assigned a value that is never used. [unreadVariable]
+        if (value == NULL && (amqp_value_value = amqpvalue_create_null()) == NULL)
+                                               ^
+iothub_client/src/iothubtransport_mqtt_common.c:2388:41: style: Variable 'transport_data->currPacketState' is reassigned a value before the old one has been used. [redundantAssignment]
+        transport_data->currPacketState = SUBSCRIBE_TYPE;
+                                        ^
+iothub_client/src/iothubtransport_mqtt_common.c:2381:49: note: transport_data->currPacketState is assigned
+                transport_data->currPacketState = SUBSCRIBE_TYPE;
+                                                ^
+iothub_client/src/iothubtransport_mqtt_common.c:2388:41: note: transport_data->currPacketState is overwritten
+        transport_data->currPacketState = SUBSCRIBE_TYPE;
+                                        ^
+iothub_client/src/iothubtransport_mqtt_common.c:2426:55: style: Redundant pointer operation on 'payload' - it's already a pointer. [redundantPointerOp]
+        if (IoTHubMessage_GetByteArray(messageHandle, &(*payload), length) != IOTHUB_MESSAGE_OK)
+                                                      ^
+iothub_client/src/iothubtransport_mqtt_common.c:976:26: style: Variable 'index' is assigned a value that is never used. [unreadVariable]
+                    index++;
+                         ^
+iothub_client/src/iothubtransport_mqtt_common.c:750:12: style: The scope of the variable 'index' can be reduced. [variableScope]
+    size_t index;
+           ^
+iothub_client/src/iothubtransporthttp.c:941:5: warning: Either the condition 'handleData==NULL' is redundant or there is possible null pointer dereference: handleData. [nullPointerRedundantCheck]
+    handleData->perDeviceList = VECTOR_create(sizeof(IOTHUB_DEVICE_HANDLE));
+    ^
+iothub_client/src/iothubtransporthttp.c:942:20: note: Assuming that condition 'handleData==NULL' is not redundant
+    if (handleData == NULL || handleData->perDeviceList == NULL)
+                   ^
+iothub_client/src/iothubtransporthttp.c:941:5: note: Null pointer dereference
+    handleData->perDeviceList = VECTOR_create(sizeof(IOTHUB_DEVICE_HANDLE));
+    ^
+iothub_client/src/iothubtransporthttp.c:163:23: style: The scope of the variable 'colon_pos' can be reduced. [variableScope]
+                char* colon_pos;
+                      ^
+iothub_client/src/iothubtransporthttp.c:1032:31: style: The scope of the variable 'listItem' can be reduced. [variableScope]
+        IOTHUB_DEVICE_HANDLE* listItem;
+                              ^
+iothub_client/src/iothubtransporthttp.c:1382:12: style: The scope of the variable 'allMessagesSize' can be reduced. [variableScope]
+    size_t allMessagesSize = 0;
+           ^
+iothub_client/src/iothubtransporthttp.c:2097:31: style: The scope of the variable 'listItem' can be reduced. [variableScope]
+        IOTHUB_DEVICE_HANDLE* listItem;
+                              ^
+iothub_client/src/uamqp_messaging.c:338:16: style: The scope of the variable 'i' can be reduced. [variableScope]
+        size_t i;
+               ^
+iothub_client/src/uamqp_messaging.c:460:10: style: The scope of the variable 'annotation_created' can be reduced. [variableScope]
+    bool annotation_created = false;
+         ^
+iothub_client/src/uamqp_messaging.c:531:10: style: The scope of the variable 'annotation_created' can be reduced. [variableScope]
+    bool annotation_created = false;
+         ^
+iothub_client/src/uamqp_messaging.c:423:48: style: Variable 'amqp_value_value' is assigned a value that is never used. [unreadVariable]
+        if (value == NULL && (amqp_value_value = amqpvalue_create_null()) == NULL)
+                                               ^
+iothub_client/tests/blob_ut/blob_ut.c:1115:26: style: Condition 'blockNumber!=(testUploadToBlobContentMaxSize-1)/(100*1024*1024)' is always true [knownConditionTrueFalse]
+            (blockNumber != (testUploadToBlobContentMaxSize - 1) / (100 * 1024 * 1024)) ? 100 * 1024 * 1024 : (testUploadToBlobContentMaxSize - 1) % (100 * 1024 * 1024) + 1 /*condition to take care of "the size of the last block*/
+                         ^
+iothub_client/tests/blob_ut/blob_ut.c:1112:26: note: Assignment 'blockNumber=0', assigned value is 0
+    size_t blockNumber = 0;
+                         ^
+iothub_client/tests/blob_ut/blob_ut.c:1115:26: note: Condition 'blockNumber!=(testUploadToBlobContentMaxSize-1)/(100*1024*1024)' is always true
+            (blockNumber != (testUploadToBlobContentMaxSize - 1) / (100 * 1024 * 1024)) ? 100 * 1024 * 1024 : (testUploadToBlobContentMaxSize - 1) % (100 * 1024 * 1024) + 1 /*condition to take care of "the size of the last block*/
+                         ^
+iothub_client/tests/blob_ut/blob_ut.c:387:53: style: Same expression on both sides of '-'. [duplicateExpression]
+    for (size_t blockNumber = 0;blockNumber < (size - 1) / (100 * 1024 * 1024) + 1;blockNumber++)
+                                                    ^
+iothub_client/tests/blob_ut/blob_ut.c:375:19: note: 'size' is assigned value '1' here.
+    size_t size = 1;
+                  ^
+iothub_client/tests/blob_ut/blob_ut.c:387:53: note: Same expression on both sides of '-'.
+    for (size_t blockNumber = 0;blockNumber < (size - 1) / (100 * 1024 * 1024) + 1;blockNumber++)
+                                                    ^
+iothub_client/tests/blob_ut/blob_ut.c:390:35: style: Same expression on both sides of '-'. [duplicateExpression]
+            (blockNumber != (size - 1) / (100 * 1024 * 1024)) ? 100 * 1024 * 1024 : (size - 1) % (100 * 1024 * 1024) + 1 /*condition to take care of "the size of the last block*/
+                                  ^
+iothub_client/tests/blob_ut/blob_ut.c:375:19: note: 'size' is assigned value '1' here.
+    size_t size = 1;
+                  ^
+iothub_client/tests/blob_ut/blob_ut.c:390:35: note: Same expression on both sides of '-'.
+            (blockNumber != (size - 1) / (100 * 1024 * 1024)) ? 100 * 1024 * 1024 : (size - 1) % (100 * 1024 * 1024) + 1 /*condition to take care of "the size of the last block*/
+                                  ^
+iothub_client/tests/blob_ut/blob_ut.c:460:53: style: Same expression on both sides of '-'. [duplicateExpression]
+    for (size_t blockNumber = 0;blockNumber < (size - 1) / (100 * 1024 * 1024) + 1;blockNumber++)
+                                                    ^
+iothub_client/tests/blob_ut/blob_ut.c:448:19: note: 'size' is assigned value '1' here.
+    size_t size = 1;
+                  ^
+iothub_client/tests/blob_ut/blob_ut.c:460:53: note: Same expression on both sides of '-'.
+    for (size_t blockNumber = 0;blockNumber < (size - 1) / (100 * 1024 * 1024) + 1;blockNumber++)
+                                                    ^
+iothub_client/tests/blob_ut/blob_ut.c:463:35: style: Same expression on both sides of '-'. [duplicateExpression]
+            (blockNumber != (size - 1) / (100 * 1024 * 1024)) ? 100 * 1024 * 1024 : (size - 1) % (100 * 1024 * 1024) + 1 /*condition to take care of "the size of the last block*/
+                                  ^
+iothub_client/tests/blob_ut/blob_ut.c:448:19: note: 'size' is assigned value '1' here.
+    size_t size = 1;
+                  ^
+iothub_client/tests/blob_ut/blob_ut.c:463:35: note: Same expression on both sides of '-'.
+            (blockNumber != (size - 1) / (100 * 1024 * 1024)) ? 100 * 1024 * 1024 : (size - 1) % (100 * 1024 * 1024) + 1 /*condition to take care of "the size of the last block*/
+                                  ^
+iothub_client/tests/blob_ut/blob_ut.c:1112:12: style: The scope of the variable 'blockNumber' can be reduced. [variableScope]
+    size_t blockNumber = 0;
+           ^
+iothub_client/tests/blob_ut/blob_ut.c:16:5: portability: Returning an integer in a function with pointer return type is not portable. [CastIntegerToAddressAtReturn]
+    return malloc(size);
+    ^
+iothub_client/tests/common_e2e/iothubclient_common_e2e.c:1443:10: style: The scope of the variable 'connStatus' can be reduced. [variableScope]
+    bool connStatus;
+         ^
+iothub_client/tests/common_longhaul/iothub_client_statistics.h:20:1: error: There is an unknown macro here somewhere. Configuration is required. If MU_DEFINE_ENUM is a macro then please configure it. [unknownMacro]
+MU_DEFINE_ENUM(TELEMETRY_EVENT_TYPE, TELEMETRY_EVENT_TYPE_VALUES)
+^
+iothub_client/tests/iothub_client_properties_ut/iothub_client_properties_ut.c:53:23: error: syntax error [syntaxError]
+    MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                      ^
+iothub_client/tests/iothub_transport_ll_private_ut/iothub_transport_ll_private_ut.c:51:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, bool, Transport_MessageCallbackFromInput, IOTHUB_MESSAGE_HANDLE, message, void*, ctx);
+                  ^
+iothub_client/tests/iothubclient_edge_ut/iothubclient_edge_ut.c:47:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:429:19: style: Variable 'size_read' is reassigned a value before the old one has been used. [redundantAssignment]
+        size_read = fread(&count_xor, 1, 1, fp);
+                  ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:427:19: note: size_read is assigned
+        size_read = fread(&count, 1, 1, fp);
+                  ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:429:19: note: size_read is overwritten
+        size_read = fread(&count_xor, 1, 1, fp);
+                  ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:430:19: style: Variable 'size_read' is reassigned a value before the old one has been used. [redundantAssignment]
+        size_read = fread(file_buffer, 1, size, fp);
+                  ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:429:19: note: size_read is assigned
+        size_read = fread(&count_xor, 1, 1, fp);
+                  ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:430:19: note: size_read is overwritten
+        size_read = fread(file_buffer, 1, size, fp);
+                  ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:197:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:194:14: note: protocol is assigned
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:197:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:200:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:194:14: note: protocol is assigned
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:200:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:194:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:188:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:194:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:194:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:191:14: note: protocol is assigned
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:194:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:249:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:243:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:249:14: note: protocol is overwritten
+    protocol = AMQP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:252:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:243:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:252:14: note: protocol is overwritten
+    protocol = AMQP_Protocol_over_WebSocketsTls;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:255:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:243:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:255:14: note: protocol is overwritten
+    protocol = HTTP_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:246:14: style: Variable 'protocol' is reassigned a value before the old one has been used. [redundantAssignment]
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:243:14: note: protocol is assigned
+    protocol = MQTT_Protocol;
+             ^
+iothub_client/tests/iothubclient_fuzz_mqtt/iothubclient_fuzz.c:246:14: note: protocol is overwritten
+    protocol = MQTT_WebSocket_Protocol;
+             ^
+iothub_client/tests/iothubclient_ll_u2b_ut/iothub_client_ll_u2b_ut.c:56:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                  ^
+iothub_client/tests/iothubclient_uploadtoblob_e2e/iothubclient_uploadtoblob_e2e.c:301:9: style:inconclusive: Found duplicate branches for 'if' and 'else'. [duplicateBranch]
+        if (uploadToBlobCauseAbort == true)
+        ^
+iothub_client/tests/iothubclient_uploadtoblob_e2e/iothubclient_uploadtoblob_e2e.c:306:9: note: Found duplicate branches for 'if' and 'else'.
+        else
+        ^
+iothub_client/tests/iothubclient_uploadtoblob_e2e/iothubclient_uploadtoblob_e2e.c:301:9: note: Found duplicate branches for 'if' and 'else'.
+        if (uploadToBlobCauseAbort == true)
+        ^
+iothub_client/tests/iothubclientcore_ll_ut/iothub_client_core_ll_ut.c:76:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, test_event_confirmation_callback, IOTHUB_CLIENT_CONFIRMATION_RESULT, result, void*, userContextCallback);
+                  ^
+iothub_client/tests/iothubclientcore_ut/iothubclientcore_ut.c:144:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, test_event_confirmation_callback, IOTHUB_CLIENT_CONFIRMATION_RESULT, result, void*, userContextCallback);
+                  ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:213:12: style: Redundant initialization for 'result'. The initialized value is overwritten before it is read. [redundantInitialization]
+    result = pfnSetMessageString(h, test_value);
+           ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:206:34: note: result is initialized
+    IOTHUB_MESSAGE_RESULT result = pfnSetMessageString(h, test_value);
+                                 ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:213:12: note: result is overwritten
+    result = pfnSetMessageString(h, test_value);
+           ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1002:12: style: Redundant initialization for 'result'. The initialized value is overwritten before it is read. [redundantInitialization]
+    result = IoTHubMessage_SetMessageId(h, TEST_MESSAGE_ID2);
+           ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:995:34: note: result is initialized
+    IOTHUB_MESSAGE_RESULT result = IoTHubMessage_SetMessageId(h, TEST_MESSAGE_ID);
+                                 ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1002:12: note: result is overwritten
+    result = IoTHubMessage_SetMessageId(h, TEST_MESSAGE_ID2);
+           ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1198:12: style: Redundant initialization for 'result'. The initialized value is overwritten before it is read. [redundantInitialization]
+    result = IoTHubMessage_SetContentTypeSystemProperty(h, TEST_CONTENT_TYPE);
+           ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1191:34: note: result is initialized
+    IOTHUB_MESSAGE_RESULT result = IoTHubMessage_SetContentTypeSystemProperty(h, TEST_CONTENT_TYPE);
+                                 ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1198:12: note: result is overwritten
+    result = IoTHubMessage_SetContentTypeSystemProperty(h, TEST_CONTENT_TYPE);
+           ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1304:12: style: Redundant initialization for 'result'. The initialized value is overwritten before it is read. [redundantInitialization]
+    result = IoTHubMessage_SetContentEncodingSystemProperty(h, TEST_CONTENT_ENCODING);
+           ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1297:34: note: result is initialized
+    IOTHUB_MESSAGE_RESULT result = IoTHubMessage_SetContentEncodingSystemProperty(h, TEST_CONTENT_ENCODING);
+                                 ^
+iothub_client/tests/iothubmessage_ut/iothubmessage_ut.c:1304:12: note: result is overwritten
+    result = IoTHubMessage_SetContentEncodingSystemProperty(h, TEST_CONTENT_ENCODING);
+           ^
+iothub_client/tests/iothubtr_amqp_msgr_ut/iothubtr_amqp_msgr_ut.c:792:33: style: Checking if unsigned expression 'in_progress_list_length' is less than zero. [unsignedLessThanZero]
+    if (in_progress_list_length <= 0)
+                                ^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1505:33: style: Checking if unsigned expression 'in_progress_list_length' is less than zero. [unsignedLessThanZero]
+    if (in_progress_list_length <= 0)
+                                ^
+iothub_client/tests/iothubtransport_amqp_cbs_auth_ut/iothubtransport_amqp_cbs_auth_ut.c:79:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, time_t, get_time, time_t*, currentTime);
+                  ^
+iothub_client/tests/iothubtransport_amqp_common_ut/iothubtransport_amqp_common_ut.c:170:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, bool, Transport_MessageCallbackFromInput, IOTHUB_MESSAGE_HANDLE, message, void*, ctx);
+                  ^
+iothub_client/tests/iothubtransport_mqtt_common_int_ut/iothubtransport_mqtt_common_int_ut.c:59:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, bool, Transport_MessageCallbackFromInput, IOTHUB_MESSAGE_HANDLE, message, void*, ctx);
+                  ^
+iothub_client/tests/iothubtransport_mqtt_common_ut/iothubtransport_mqtt_common_ut.c:78:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, bool, Transport_MessageCallbackFromInput, IOTHUB_MESSAGE_HANDLE, message, void*, ctx);
+                  ^
+iothub_client/tests/iothubtransport_ut/iothubtransport_ut.c:52:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, int, FAKE_IoTHubTransport_Subscribe_DeviceMethod, IOTHUB_DEVICE_HANDLE, handle);
+                  ^
+iothub_client/tests/iothubtransportamqp_methods_ut/iothubtransportamqp_methods_ut.c:121:1: error: There is an unknown macro here somewhere. Configuration is required. If MOCK_FUNCTION_END is a macro then please configure it. [unknownMacro]
+MOCK_FUNCTION_END(0)
+^
+iothub_client/tests/iothubtransportamqp_ws_ut/iothubtransportamqp_ws_ut.c:44:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, bool, Transport_MessageCallbackFromInput, IOTHUB_MESSAGE_HANDLE, messageHandle, void*, ctx);
+                  ^
+iothub_client/tests/iothubtransporthttp_ut/iothubtransporthttp_ut.c:64:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, bool, Transport_MessageCallbackFromInput, IOTHUB_MESSAGE_HANDLE, messageHandle, void*, ctx);
+                  ^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:167:5: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+    uuid_value = test_amqpvalue_get_uuid_uuid_value;
+    ^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:376:5: error: Using object to temporary. [danglingTemporaryLifetime]
+    test_binary_data.length = strlen(TEST_STRING);
+    ^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:375:52: note: Address of variable taken here.
+    test_binary_data.bytes = (const unsigned char*)&TEST_STRING;
+                                                   ^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:376:5: note: Using object to temporary.
+    test_binary_data.length = strlen(TEST_STRING);
+    ^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:167:16: style: Variable 'uuid_value' is assigned a value that is never used. [unreadVariable]
+    uuid_value = test_amqpvalue_get_uuid_uuid_value;
+               ^
+iothub_service_client/samples/iothub_messaging_ll_sample/iothub_messaging_ll_sample.c:100:35: style: Variable 'iotHubMessagingResult' is reassigned a value before the old one has been used. [redundantAssignment]
+            iotHubMessagingResult = IoTHubMessaging_LL_Open(iotHubMessagingHandle, openCompleteCallback, "Context string for open");
+                                  ^
+iothub_service_client/samples/iothub_messaging_ll_sample/iothub_messaging_ll_sample.c:97:35: note: iotHubMessagingResult is assigned
+            iotHubMessagingResult = IoTHubMessaging_LL_SetFeedbackMessageCallback(iotHubMessagingHandle, feedbackReceivedCallback, "Context string for feedback");
+                                  ^
+iothub_service_client/samples/iothub_messaging_ll_sample/iothub_messaging_ll_sample.c:100:35: note: iotHubMessagingResult is overwritten
+            iotHubMessagingResult = IoTHubMessaging_LL_Open(iotHubMessagingHandle, openCompleteCallback, "Context string for open");
+                                  ^
+iothub_service_client/samples/iothub_messaging_ll_sample/iothub_messaging_ll_sample.c:100:35: style: Variable 'iotHubMessagingResult' is assigned a value that is never used. [unreadVariable]
+            iotHubMessagingResult = IoTHubMessaging_LL_Open(iotHubMessagingHandle, openCompleteCallback, "Context string for open");
+                                  ^
+iothub_service_client/samples/iothub_messaging_sample/iothub_messaging_sample.c:97:35: style: Variable 'iotHubMessagingResult' is reassigned a value before the old one has been used. [redundantAssignment]
+            iotHubMessagingResult = IoTHubMessaging_Open(iotHubMessagingHandle, openCompleteCallback, "Context string for open");
+                                  ^
+iothub_service_client/samples/iothub_messaging_sample/iothub_messaging_sample.c:94:35: note: iotHubMessagingResult is assigned
+            iotHubMessagingResult = IoTHubMessaging_SetFeedbackMessageCallback(iotHubMessagingHandle, feedbackReceivedCallback, "Context string for feedback");
+                                  ^
+iothub_service_client/samples/iothub_messaging_sample/iothub_messaging_sample.c:97:35: note: iotHubMessagingResult is overwritten
+            iotHubMessagingResult = IoTHubMessaging_Open(iotHubMessagingHandle, openCompleteCallback, "Context string for open");
+                                  ^
+iothub_service_client/samples/iothub_messaging_sample/iothub_messaging_sample.c:97:35: style: Variable 'iotHubMessagingResult' is assigned a value that is never used. [unreadVariable]
+            iotHubMessagingResult = IoTHubMessaging_Open(iotHubMessagingHandle, openCompleteCallback, "Context string for open");
+                                  ^
+iothub_service_client/src/iothub_deviceconfiguration.c:1271:28: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+    JSON_Status jsonStatus = JSONFailure;
+                           ^
+iothub_service_client/src/iothub_deviceconfiguration.c:1346:25: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+        if ((jsonStatus = json_array_clear(device_configuration_array)) != JSONSuccess)
+                        ^
+iothub_service_client/src/iothub_devicemethod.c:139:17: style: The scope of the variable 'stringHandle_c_str' can be reduced. [variableScope]
+    const char* stringHandle_c_str;
+                ^
+iothub_service_client/src/iothub_devicetwin.c:399:5: error: Memory leak: temp [memleak]
+    }
+    ^
+iothub_service_client/src/iothub_messaging_ll.c:684:74: style: Checking if unsigned expression 'array_count=json_array_get_count(feedback_array)' is less than zero. [unsignedLessThanZero]
+                if ((array_count = json_array_get_count(feedback_array)) <= 0)
+                                                                         ^
+iothub_service_client/src/iothub_registrymanager.c:442:28: warning: Either the condition 'deviceOrModuleInfo==NULL' is redundant or there is possible null pointer dereference: deviceOrModuleInfo. [nullPointerRedundantCheck]
+    int iotEdge_capable = (deviceOrModuleInfo->iotEdge_capable == true) ? 1 : 0;
+                           ^
+iothub_service_client/src/iothub_registrymanager.c:444:28: note: Assuming that condition 'deviceOrModuleInfo==NULL' is not redundant
+    if (deviceOrModuleInfo == NULL)
+                           ^
+iothub_service_client/src/iothub_registrymanager.c:442:28: note: Null pointer dereference
+    int iotEdge_capable = (deviceOrModuleInfo->iotEdge_capable == true) ? 1 : 0;
+                           ^
+iothub_service_client/src/iothub_registrymanager.c:1036:24: style: Variable 'result' is reassigned a value before the old one has been used. [redundantAssignment]
+                result = IOTHUB_REGISTRYMANAGER_OK;
+                       ^
+iothub_service_client/src/iothub_registrymanager.c:1031:16: note: result is assigned
+        result = IOTHUB_REGISTRYMANAGER_ERROR;
+               ^
+iothub_service_client/src/iothub_registrymanager.c:1036:24: note: result is overwritten
+                result = IOTHUB_REGISTRYMANAGER_OK;
+                       ^
+iothub_service_client/src/iothub_registrymanager.c:1025:30: style: Checking if unsigned expression 'numberOfDevices' is less than zero. [unsignedLessThanZero]
+        if ((numberOfDevices <= 0) || (numberOfDevices > IOTHUB_DEVICES_MAX_REQUEST))
+                             ^
+iothub_service_client/src/iothub_registrymanager.c:536:21: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+    if ((jsonStatus = json_object_clear(root_object)) != JSONSuccess)
+                    ^
+iothub_service_client/src/iothub_registrymanager.c:748:25: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+        if ((jsonStatus = json_object_clear(root_object)) != JSONSuccess)
+                        ^
+iothub_service_client/src/iothub_registrymanager.c:832:28: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+    JSON_Status jsonStatus = JSONFailure;
+                           ^
+iothub_service_client/src/iothub_registrymanager.c:908:71: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+                if ((device_or_module_object != NULL) && ((jsonStatus = json_object_clear(device_or_module_object)) != JSONSuccess))
+                                                                      ^
+iothub_service_client/src/iothub_registrymanager.c:922:25: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+        if ((jsonStatus = json_array_clear(device_or_module_array)) != JSONSuccess)
+                        ^
+iothub_service_client/src/iothub_registrymanager.c:1009:25: style: Variable 'jsonStatus' is assigned a value that is never used. [unreadVariable]
+        if ((jsonStatus = json_object_clear(root_object)) != JSONSuccess)
+                        ^
+iothub_service_client/src/iothub_service_client_auth.c:107:73: style: Variable 'sharedAccess' is assigned a value that is never used. [unreadVariable]
+                    else if (!useSharedAccessSignature && (sharedAccess = Map_GetValueFromKey(connection_string_values_map, IOTHUBSHAREDACESSKEY)) == NULL)
+                                                                        ^
+iothub_service_client/tests/iothub_deviceconfiguration_ut/iothub_deviceconfiguration_ut.c:66:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                  ^
+iothub_service_client/tests/iothub_devicemethod_ut/iothub_devicemethod_ut.c:66:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                  ^
+iothub_service_client/tests/iothub_msging_ll_ut/iothub_messaging_ll_ut.c:44:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Array*, json_array_get_array, const JSON_Array*, array, size_t, index);
+                  ^
+iothub_service_client/tests/iothub_msging_ut/iothub_messaging_ut.c:40:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, TEST_FUNC_IOTHUB_OPEN_COMPLETE_CALLBACK, void*, context);
+                  ^
+iothub_service_client/tests/iothub_rm_ut/iothub_rm_ut.c:27:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                  ^
+iothub_service_client/tests/iothub_srv_client_auth_ut/iothub_service_client_auth_ut.cpp:75:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_2(, int, mallocAndStrcpy_s, char**, destination, const char*, source)
+                         ^
+provisioning_client/adapters/hsm_client_tpm.h:20:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, HSM_CLIENT_HANDLE, hsm_client_tpm_create);
+                  ^
+provisioning_client/adapters/hsm_client_data.c:44:17: style: The comparison 'result == 0' is always true. [knownConditionTrueFalse]
+    if ((result == 0) && (hsm_client_http_edge_init() != 0))
+                ^
+provisioning_client/adapters/hsm_client_data.c:27:18: note: 'result' is assigned value '0' here.
+    int result = 0;
+                 ^
+provisioning_client/adapters/hsm_client_data.c:44:17: note: The comparison 'result == 0' is always true.
+    if ((result == 0) && (hsm_client_http_edge_init() != 0))
+                ^
+provisioning_client/adapters/hsm_client_http_edge.h:20:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, HSM_CLIENT_HANDLE, hsm_client_http_edge_create);
+                  ^
+provisioning_client/adapters/hsm_client_key.h:17:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, HSM_CLIENT_HANDLE, hsm_client_key_create);
+                  ^
+provisioning_client/adapters/hsm_client_riot.h:20:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, HSM_CLIENT_HANDLE, hsm_client_riot_create);
+                  ^
+provisioning_client/adapters/hsm_client_x509.h:20:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, HSM_CLIENT_HANDLE, hsm_client_x509_create);
+                  ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:185:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_AMQP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:179:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:185:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_AMQP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:261:26: style: Variable 'iothub_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+        iothub_transport = AMQP_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:255:26: note: iothub_transport is assigned
+        iothub_transport = MQTT_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:261:26: note: iothub_transport is overwritten
+        iothub_transport = AMQP_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:188:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_AMQP_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:179:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:188:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_AMQP_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:264:26: style: Variable 'iothub_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+        iothub_transport = AMQP_Protocol_over_WebSocketsTls;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:255:26: note: iothub_transport is assigned
+        iothub_transport = MQTT_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:264:26: note: iothub_transport is overwritten
+        iothub_transport = AMQP_Protocol_over_WebSocketsTls;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:191:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_HTTP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:179:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:191:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_HTTP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:182:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_MQTT_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:179:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:182:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_MQTT_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:258:26: style: Variable 'iothub_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+        iothub_transport = MQTT_WebSocket_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:255:26: note: iothub_transport is assigned
+        iothub_transport = MQTT_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_sample/prov_dev_client_ll_sample.c:258:26: note: iothub_transport is overwritten
+        iothub_transport = MQTT_WebSocket_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:194:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_AMQP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:188:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:194:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_AMQP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:267:26: style: Variable 'iothub_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+        iothub_transport = AMQP_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:260:26: note: iothub_transport is assigned
+        iothub_transport = MQTT_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:267:26: note: iothub_transport is overwritten
+        iothub_transport = AMQP_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:197:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_AMQP_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:188:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:197:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_AMQP_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:270:26: style: Variable 'iothub_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+        iothub_transport = AMQP_Protocol_over_WebSocketsTls;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:260:26: note: iothub_transport is assigned
+        iothub_transport = MQTT_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:270:26: note: iothub_transport is overwritten
+        iothub_transport = AMQP_Protocol_over_WebSocketsTls;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:200:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_HTTP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:188:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:200:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_HTTP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:191:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_MQTT_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:188:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:191:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_MQTT_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:263:26: style: Variable 'iothub_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+        iothub_transport = MQTT_WebSocket_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:260:26: note: iothub_transport is assigned
+        iothub_transport = MQTT_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:263:26: note: iothub_transport is overwritten
+        iothub_transport = MQTT_WebSocket_Protocol;
+                         ^
+provisioning_client/samples/prov_dev_client_ll_x509_sample/prov_dev_client_ll_x509_sample.c:92:0: information: Skipping configuration 'SAMPLE_OPENSSL_ENGINE' since the value of 'SAMPLE_OPENSSL_ENGINE' is unknown. Use -D if you want to check it. You can use -U to skip it explicitly. [ConfigurationNotChecked]
+static const char* opensslEngine = SAMPLE_OPENSSL_ENGINE;
+^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:140:43: style: Variable 'prov_device_result' is assigned a value that is never used. [unreadVariable]
+    PROV_DEVICE_RESULT prov_device_result = PROV_DEVICE_RESULT_ERROR;
+                                          ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:123:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_AMQP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:117:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:123:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_AMQP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:126:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_AMQP_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:117:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:126:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_AMQP_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:129:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_HTTP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:117:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:129:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_HTTP_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:120:20: style: Variable 'prov_transport' is reassigned a value before the old one has been used. [redundantAssignment]
+    prov_transport = Prov_Device_MQTT_WS_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:117:20: note: prov_transport is assigned
+    prov_transport = Prov_Device_MQTT_Protocol;
+                   ^
+provisioning_client/samples/prov_dev_client_sample/prov_dev_client_sample.c:120:20: note: prov_transport is overwritten
+    prov_transport = Prov_Device_MQTT_WS_Protocol;
+                   ^
+provisioning_client/src/iothub_auth_client.c:212:20: style: Condition 'result==NULL' is always false [knownConditionTrueFalse]
+        if (result == NULL)
+                   ^
+provisioning_client/src/iothub_auth_client.c:126:80: note: Assuming that condition '(result=(struct IOTHUB_SECURITY_INFO_TAG*)malloc(sizeof(struct IOTHUB_SECURITY_INFO_TAG)))==NULL' is not redundant
+    if ((result = (IOTHUB_SECURITY_INFO*)malloc(sizeof(IOTHUB_SECURITY_INFO))) == NULL)
+                                                                               ^
+provisioning_client/src/iothub_auth_client.c:212:20: note: Condition 'result==NULL' is always false
+        if (result == NULL)
+                   ^
+provisioning_client/src/iothub_auth_client.c:317:35: style: Checking if unsigned expression 'total_len' is less than zero. [unsignedLessThanZero]
+                    if (total_len <= 0)
+                                  ^
+provisioning_client/src/iothub_auth_client.c:193:20: style: Condition 'result!=NULL' is always true [knownConditionTrueFalse]
+        if (result != NULL && iothub_security_t == IOTHUB_SECURITY_TYPE_HTTP_EDGE)
+                   ^
+provisioning_client/src/iothub_auth_client.c:126:80: note: Assuming that condition '(result=(struct IOTHUB_SECURITY_INFO_TAG*)malloc(sizeof(struct IOTHUB_SECURITY_INFO_TAG)))==NULL' is not redundant
+    if ((result = (IOTHUB_SECURITY_INFO*)malloc(sizeof(IOTHUB_SECURITY_INFO))) == NULL)
+                                                                               ^
+provisioning_client/src/iothub_auth_client.c:193:20: note: Condition 'result!=NULL' is always true
+        if (result != NULL && iothub_security_t == IOTHUB_SECURITY_TYPE_HTTP_EDGE)
+                   ^
+provisioning_client/src/prov_auth_client.c:296:20: style: Condition 'result==NULL' is always false [knownConditionTrueFalse]
+        if (result == NULL)
+                   ^
+provisioning_client/src/prov_auth_client.c:229:68: note: Assuming that condition '(result=(struct PROV_AUTH_INFO_TAG*)malloc(sizeof(struct PROV_AUTH_INFO_TAG)))==NULL' is not redundant
+    if ((result = (PROV_AUTH_INFO*)malloc(sizeof(PROV_AUTH_INFO))) == NULL)
+                                                                   ^
+provisioning_client/src/prov_auth_client.c:296:20: note: Condition 'result==NULL' is always false
+        if (result == NULL)
+                   ^
+provisioning_client/src/prov_auth_client.c:95:17: style: The scope of the variable 'msg_digest' can be reduced. [variableScope]
+        uint8_t msg_digest[SHA256HashSize];
+                ^
+provisioning_client/src/prov_sasl_tpm.c:141:35: style: Variable 'scope_id_len' is assigned a value that is never used. [unreadVariable]
+                    scope_id_len  = registration_id_len = 0;
+                                  ^
+provisioning_client/src/prov_transport_http_client.c:1042:13: error: Memory pointed to by 'x509_cert' is freed twice. [doubleFree]
+            free(http_info->x509_cert);
+            ^
+provisioning_client/src/prov_transport_http_client.c:1028:13: note: Memory pointed to by 'x509_cert' is freed twice.
+            free(http_info->x509_cert);
+            ^
+provisioning_client/src/prov_transport_http_client.c:1042:13: note: Memory pointed to by 'x509_cert' is freed twice.
+            free(http_info->x509_cert);
+            ^
+provisioning_client/src/prov_transport_http_client.c:1131:17: error: Memory pointed to by 'proxy_host' is freed twice. [doubleFree]
+                free(http_info->proxy_host);
+                ^
+provisioning_client/src/prov_transport_http_client.c:1110:17: note: Memory pointed to by 'proxy_host' is freed twice.
+                free(http_info->proxy_host);
+                ^
+provisioning_client/src/prov_transport_http_client.c:1131:17: note: Memory pointed to by 'proxy_host' is freed twice.
+                free(http_info->proxy_host);
+                ^
+provisioning_client/src/prov_transport_http_client.c:1139:17: error: Memory pointed to by 'proxy_host' is freed twice. [doubleFree]
+                free(http_info->proxy_host);
+                ^
+provisioning_client/src/prov_transport_http_client.c:1110:17: note: Memory pointed to by 'proxy_host' is freed twice.
+                free(http_info->proxy_host);
+                ^
+provisioning_client/src/prov_transport_http_client.c:1139:17: note: Memory pointed to by 'proxy_host' is freed twice.
+                free(http_info->proxy_host);
+                ^
+provisioning_client/src/sec_device_module_tpm.c:359:31: style: Checking if unsigned expression 'total_len' is less than zero. [unsignedLessThanZero]
+                if (total_len <= 0)
+                              ^
+provisioning_client/src/sec_device_module_tpm.c:410:12: error: Uninitialized variable: result [uninitvar]
+    return result;
+           ^
+provisioning_client/src/sec_device_module_tpm.c:169:12: style: Variable 'result' is assigned a value that is never used. [unreadVariable]
+    result = 0;
+           ^
+provisioning_client/src/sec_device_module_tpm.c:428:18: style: Variable 'slot' is assigned a value that is never used. [unreadVariable]
+            slot = 0;
+                 ^
+provisioning_client/src/sec_device_module_tpm.c:433:18: style: Variable 'slot' is assigned a value that is never used. [unreadVariable]
+            slot = 1;
+                 ^
+provisioning_client/tests/common_prov_e2e/common_prov_e2e.c:357:145: style:inconclusive: Function 'send_dps_test_registration_with_retry' argument 4 names different: declaration 'use_tracing' definition 'g_enable_tracing'. [funcArgNamesDifferent]
+void send_dps_test_registration_with_retry(const char* global_uri, const char* scope_id, PROV_DEVICE_TRANSPORT_PROVIDER_FUNCTION protocol, bool g_enable_tracing)
+                                                                                                                                                ^
+provisioning_client/tests/common_prov_e2e/common_prov_e2e.h:60:152: note: Function 'send_dps_test_registration_with_retry' argument 4 names different: declaration 'use_tracing' definition 'g_enable_tracing'.
+extern void send_dps_test_registration_with_retry(const char* global_uri, const char* scope_id, PROV_DEVICE_TRANSPORT_PROVIDER_FUNCTION protocol, bool use_tracing);
+                                                                                                                                                       ^
+provisioning_client/tests/common_prov_e2e/common_prov_e2e.c:357:145: note: Function 'send_dps_test_registration_with_retry' argument 4 names different: declaration 'use_tracing' definition 'g_enable_tracing'.
+void send_dps_test_registration_with_retry(const char* global_uri, const char* scope_id, PROV_DEVICE_TRANSPORT_PROVIDER_FUNCTION protocol, bool g_enable_tracing)
+                                                                                                                                                ^
+provisioning_client/tests/common_prov_e2e/prov_hsm/tpm_msr.c:381:106: style:inconclusive: Function 'tpm_msr_sign_data' argument 4 names different: declaration 'signed_value' definition 'data_signature'. [funcArgNamesDifferent]
+int tpm_msr_sign_data(TPM_INFO_HANDLE handle, const unsigned char* data, size_t data_len, unsigned char* data_signature, size_t* signed_len)
+                                                                                                         ^
+provisioning_client/tests/common_prov_e2e/prov_hsm/tpm_msr.h:22:113: note: Function 'tpm_msr_sign_data' argument 4 names different: declaration 'signed_value' definition 'data_signature'.
+extern int tpm_msr_sign_data(TPM_INFO_HANDLE handle, const unsigned char* data, size_t data_len, unsigned char* signed_value, size_t* signed_len);
+                                                                                                                ^
+provisioning_client/tests/common_prov_e2e/prov_hsm/tpm_msr.c:381:106: note: Function 'tpm_msr_sign_data' argument 4 names different: declaration 'signed_value' definition 'data_signature'.
+int tpm_msr_sign_data(TPM_INFO_HANDLE handle, const unsigned char* data, size_t data_len, unsigned char* data_signature, size_t* signed_len)
+                                                                                                         ^
+provisioning_client/tests/device_auth_emulator_ut/device_auth_emulator_ut.c:44:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                  ^
+provisioning_client/tests/hsm_client_http_edge_ut/hsm_client_http_edge_ut.c:102:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                  ^
+provisioning_client/tests/hsm_client_key_ut/hsm_client_key_ut.c:389:16: style: Redundant initialization for 'result'. The initialized value is overwritten before it is read. [redundantInitialization]
+        result = hsm_client_set_key_info(sec_handle, TEST_REG_NAME, TEST_SYMM_KEY);
+               ^
+provisioning_client/tests/hsm_client_key_ut/hsm_client_key_ut.c:380:20: note: result is initialized
+        int result = hsm_client_set_key_info(sec_handle, TEST_REG_NAME, TEST_SYMM_KEY);
+                   ^
+provisioning_client/tests/hsm_client_key_ut/hsm_client_key_ut.c:389:16: note: result is overwritten
+        result = hsm_client_set_key_info(sec_handle, TEST_REG_NAME, TEST_SYMM_KEY);
+               ^
+provisioning_client/tests/hsm_client_riot_ut/hsm_client_riot_ut.c:46:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, DiceSHA256, const uint8_t*, buf, size_t, bufSize, uint8_t*, digest);
+                  ^
+provisioning_client/tests/hsm_client_x509_ut/hsm_client_x509_ut.c:270:9: style: Redundant initialization for 'ret'. The initialized value is overwritten before it is read. [redundantInitialization]
+    ret = hsm_client_x509_set_certificate(sec_handle, TEST_CERTIFICATE_VALUE);
+        ^
+provisioning_client/tests/hsm_client_x509_ut/hsm_client_x509_ut.c:269:13: note: ret is initialized
+    int ret = hsm_client_x509_set_certificate(sec_handle, TEST_CERTIFICATE_VALUE);
+            ^
+provisioning_client/tests/hsm_client_x509_ut/hsm_client_x509_ut.c:270:9: note: ret is overwritten
+    ret = hsm_client_x509_set_certificate(sec_handle, TEST_CERTIFICATE_VALUE);
+        ^
+provisioning_client/tests/hsm_client_x509_ut/hsm_client_x509_ut.c:375:9: style: Redundant initialization for 'ret'. The initialized value is overwritten before it is read. [redundantInitialization]
+    ret = hsm_client_x509_set_key(sec_handle, TEST_KEY_VALUE);
+        ^
+provisioning_client/tests/hsm_client_x509_ut/hsm_client_x509_ut.c:374:13: note: ret is initialized
+    int ret = hsm_client_x509_set_key(sec_handle, TEST_KEY_VALUE);
+            ^
+provisioning_client/tests/hsm_client_x509_ut/hsm_client_x509_ut.c:375:9: note: ret is overwritten
+    ret = hsm_client_x509_set_key(sec_handle, TEST_KEY_VALUE);
+        ^
+provisioning_client/tests/iothub_auth_client_ut/iothub_auth_client_ut.c:44:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, HSM_CLIENT_HANDLE, hsm_client_create);
+                  ^
+provisioning_client/tests/prov_auth_client_ut/prov_auth_client_ut.c:56:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, HSM_CLIENT_HANDLE, secure_device_create);
+                  ^
+provisioning_client/tests/prov_device_client_ll_ut/prov_device_client_ll_ut.c:52:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_prov_register_device_callback, PROV_DEVICE_RESULT, register_result, const char*, iothub_uri, const char*, device_id, void*, user_context);
+                  ^
+provisioning_client/tests/prov_device_client_ut/prov_device_client_ut.c:112:9: warning: Assignment of function parameter has no effect outside the function. Did you forget dereferencing it? [uselessAssignmentPtrArg]
+        res = 0;
+        ^
+provisioning_client/tests/prov_device_client_ut/prov_device_client_ut.c:112:13: style: Variable 'res' is assigned a value that is never used. [unreadVariable]
+        res = 0;
+            ^
+provisioning_client/tests/prov_sasl_tpm_ut/prov_sasl_tpm_ut.c:39:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, char*, on_challenge_callback, BUFFER_HANDLE, data, void*, user_ctx);
+                  ^
+provisioning_client/tests/prov_security_factory_ut/prov_security_factory_ut.c:35:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, int, initialize_hsm_system);
+                  ^
+provisioning_client/tests/prov_transport_amqp_client_ut/prov_transport_amqp_client_ut.c:43:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_transport_register_data_cb, PROV_DEVICE_TRANSPORT_RESULT, transport_result, BUFFER_HANDLE, iothub_key, const char*, assigned_hub, const char*, device_id, void*, user_ctx);
+                  ^
+provisioning_client/tests/prov_transport_amqp_common_ut/prov_transport_amqp_common_ut.c:73:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_transport_register_data_cb, PROV_DEVICE_TRANSPORT_RESULT, transport_result, BUFFER_HANDLE, iothub_key, const char*, assigned_hub, const char*, device_id, void*, user_ctx);
+                  ^
+provisioning_client/tests/prov_transport_amqp_ws_client_ut/prov_transport_amqp_ws_client_ut.c:44:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_transport_register_data_cb, PROV_DEVICE_TRANSPORT_RESULT, transport_result, BUFFER_HANDLE, iothub_key, const char*, assigned_hub, const char*, device_id, void*, user_ctx);
+                  ^
+provisioning_client/tests/prov_transport_http_client_ut/prov_transport_http_client_ut.c:55:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_transport_register_data_cb, PROV_DEVICE_TRANSPORT_RESULT, transport_result, BUFFER_HANDLE, iothub_key, const char*, assigned_hub, const char*, device_id, void*, user_ctx);
+                  ^
+provisioning_client/tests/prov_transport_mqtt_client_ut/prov_transport_mqtt_client_ut.c:43:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_transport_register_data_cb, PROV_DEVICE_TRANSPORT_RESULT, transport_result, BUFFER_HANDLE, iothub_key, const char*, assigned_hub, const char*, device_id, void*, user_ctx);
+                  ^
+provisioning_client/tests/prov_transport_mqtt_common_ut/prov_transport_mqtt_common_ut.c:51:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_transport_register_data_cb, PROV_DEVICE_TRANSPORT_RESULT, transport_result, BUFFER_HANDLE, iothub_key, const char*, assigned_hub, const char*, device_id, void*, user_ctx);
+                  ^
+provisioning_client/tests/prov_transport_mqtt_ws_client_ut/prov_transport_mqtt_ws_client_ut.c:44:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_transport_register_data_cb, PROV_DEVICE_TRANSPORT_RESULT, transport_result, BUFFER_HANDLE, iothub_key, const char*, assigned_hub, const char*, device_id, void*, user_ctx);
+                  ^
+provisioning_client/tools/symm_key_provision/symm_key_provision.c:18:11: style: struct member 'REGISTRATION_INFO_TAG::registration_id' is never used. [unusedStructMember]
+    char* registration_id;
+          ^
+provisioning_service_client/src/provisioning_sc_attestation_mechanism.c:17:1: error: There is an unknown macro here somewhere. Configuration is required. If MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID is a macro then please configure it. [unknownMacro]
+MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID(ATTESTATION_TYPE, ATTESTATION_TYPE_VALUES)
+^
+provisioning_service_client/src/provisioning_sc_query.c:18:12: style: The scope of the variable 'i' can be reduced. [variableScope]
+    size_t i;
+           ^
+provisioning_service_client/src/provisioning_sc_shared_helpers.c:168:10: error: Deallocation of an auto-variable results in undefined behaviour. [autovarInvalidDeallocation]
+    free(arr);
+         ^
+provisioning_service_client/src/provisioning_sc_shared_helpers.c:184:26: style: The scope of the variable 'element_obj' can be reduced. [variableScope]
+            JSON_Object* element_obj;
+                         ^
+provisioning_service_client/src/provisioning_sc_x509_attestation.c:17:1: error: There is an unknown macro here somewhere. Configuration is required. If MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID is a macro then please configure it. [unknownMacro]
+MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID(X509_CERTIFICATE_TYPE, X509_CERTIFICATE_TYPE_VALUES)
+^
+provisioning_service_client/tests/prov_sc_bulk_operation_ut/prov_sc_bulk_operation_ut.c:36:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/prov_sc_dev_caps_ut/prov_sc_dev_caps_ut.c:37:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_value_init_object);
+                  ^
+provisioning_service_client/tests/prov_sc_registration_state_ut/prov_sc_registration_state_ut.c:33:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/prov_sc_shared_helpers_ut/prov_sc_shared_helpers_ut.c:33:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/prov_sc_tpm_attestation_ut/prov_sc_tpm_attestation_ut.c:33:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/prov_sc_x509_attestation_ut/prov_sc_x509_attestation_ut.c:35:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/provisioning_sc_attestation_ut/provisioning_sc_attestation_ut.c:37:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/provisioning_sc_enrollment_ut/provisioning_sc_enrollment_ut.c:38:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/provisioning_sc_query_ut/provisioning_sc_query_ut.c:36:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+provisioning_service_client/tests/provisioning_sc_twin_ut/provisioning_sc_twin_ut.c:33:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char*, string);
+                  ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:368:9: style: The scope of the variable 'minTemperature' can be reduced. [variableScope]
+ double minTemperature = 50.0;
+        ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:369:9: style: The scope of the variable 'minPressure' can be reduced. [variableScope]
+ double minPressure = 55.0;
+        ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:370:9: style: The scope of the variable 'minHumidity' can be reduced. [variableScope]
+ double minHumidity = 30.0;
+        ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:371:9: style: The scope of the variable 'temperature' can be reduced. [variableScope]
+ double temperature = 0;
+        ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:372:9: style: The scope of the variable 'pressure' can be reduced. [variableScope]
+ double pressure = 0;
+        ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:373:9: style: The scope of the variable 'humidity' can be reduced. [variableScope]
+ double humidity = 0;
+        ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:371:21: style: Variable 'temperature' is assigned a value that is never used. [unreadVariable]
+ double temperature = 0;
+                    ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:372:18: style: Variable 'pressure' is assigned a value that is never used. [unreadVariable]
+ double pressure = 0;
+                 ^
+samples/solutions/remote_monitoring_client/remote_monitoring.c:373:18: style: Variable 'humidity' is assigned a value that is never used. [unreadVariable]
+ double humidity = 0;
+                 ^
+serializer/src/agenttypesystem.c:2150:24: style: The scope of the variable 'currentPosition' can be reduced. [variableScope]
+                size_t currentPosition = 0;
+                       ^
+serializer/src/agenttypesystem.c:2280:12: style: The scope of the variable 'i' can be reduced. [variableScope]
+    size_t i;
+           ^
+serializer/src/agenttypesystem.c:2329:12: style: The scope of the variable 'i' can be reduced. [variableScope]
+    size_t i;
+           ^
+serializer/src/agenttypesystem.c:3187:25: style: The scope of the variable 'int32Value' can be reduced. [variableScope]
+                int32_t int32Value;
+                        ^
+serializer/src/agenttypesystem.c:3242:27: style: The scope of the variable 'int64Value' can be reduced. [variableScope]
+                long long int64Value;
+                          ^
+serializer/src/codefirst.c:16:1: error: There is an unknown macro here somewhere. Configuration is required. If MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID is a macro then please configure it. [unknownMacro]
+MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID(CODEFIRST_RESULT, CODEFIRST_RESULT_VALUES)
+^
+serializer/src/datapublisher.c:17:1: error: There is an unknown macro here somewhere. Configuration is required. If MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID is a macro then please configure it. [unknownMacro]
+MU_DEFINE_ENUM_STRINGS_WITHOUT_INVALID(DATA_PUBLISHER_RESULT, DATA_PUBLISHER_RESULT_VALUES)
+^
+serializer/src/jsonencoder.c:38:16: style: The scope of the variable 'i' can be reduced. [variableScope]
+        size_t i;
+               ^
+serializer/src/schema.c:1014:41: style: Variable 'action->ArgumentHandles' is reassigned a value before the old one has been used. [redundantAssignment]
+                action->ArgumentHandles = newArguments;
+                                        ^
+serializer/src/schema.c:1010:41: note: action->ArgumentHandles is assigned
+                action->ArgumentHandles = newArguments;
+                                        ^
+serializer/src/schema.c:1014:41: note: action->ArgumentHandles is overwritten
+                action->ArgumentHandles = newArguments;
+                                        ^
+serializer/src/schema.c:184:12: style: The scope of the variable 'i' can be reduced. [variableScope]
+    size_t i;
+           ^
+serializer/src/schemaserializer.c:58:24: style: The scope of the variable 'j' can be reduced. [variableScope]
+                size_t j;
+                       ^
+serializer/tests/agentmacros_ut/agentmacros_ut.cpp:137:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_2(, AGENT_DATA_TYPES_RESULT, Create_AGENT_DATA_TYPE_from_SINT32, AGENT_DATA_TYPE*, agentData, int32_t, v)
+                         ^
+serializer/tests/agenttypesystem_ut/agenttypesystem_ut.cpp:87:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_1(, struct tm*, get_gmtime, time_t*, currentTime)
+                         ^
+serializer/tests/codefirst_ut/codefirst_ut.c:578:1: error: There is an unknown macro here somewhere. Configuration is required. If BEGIN_NAMESPACE is a macro then please configure it. [unknownMacro]
+BEGIN_NAMESPACE(testModelInModelReflected)
+^
+serializer/tests/codefirst_withstructs_ut/codefirst_withstructs_ut.c:72:1: error: There is an unknown macro here somewhere. Configuration is required. If BEGIN_NAMESPACE is a macro then please configure it. [unknownMacro]
+BEGIN_NAMESPACE(TheSecondDummyDataProvider_WithStructs)
+^
+serializer/tests/commanddecoder_ut/commanddecoder_ut.c:44:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, onDesiredPropertySimpleProperty, void*, v);
+                  ^
+serializer/tests/datamarshaller_ut/datamarshaller_ut.c:51:23: error: syntax error [syntaxError]
+    MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                      ^
+serializer/tests/datapublisher_ut/datapublisher_ut.c:530:28: style: Variable 'value.PropertyPath' is assigned a value that is never used. [unreadVariable]
+        value.PropertyPath = PropertyPath;
+                           ^
+serializer/tests/datapublisher_ut/datapublisher_ut.c:531:21: style: Variable 'value.Value' is assigned a value that is never used. [unreadVariable]
+        value.Value = &data;
+                    ^
+serializer/tests/dataserializer_ut/dataserializer_ut.cpp:35:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_2(, BUFFER_HANDLE, TestDataSerializerEncode, MULTITREE_HANDLE, multiTreeHandle, DATA_SERIALIZER_MULTITREE_TYPE, dataType)
+                         ^
+serializer/tests/iotdevice_ut/iotdevice_ut.c:52:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, EXECUTE_COMMAND_RESULT, DeviceActionCallback, DEVICE_HANDLE, deviceHandle, void*, callbackUserContext, const char*, relativeActionPath, const char*, actionName, size_t, argCount, const AGENT_DATA_TYPE*, arguments);
+                  ^
+serializer/tests/jsondecoder_ut/jsondecoder_ut.cpp:23:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_2(, MULTITREE_HANDLE, MultiTree_Create, MULTITREE_CLONE_FUNCTION, cloneFunction, MULTITREE_FREE_FUNCTION, freeFunction)
+                         ^
+serializer/tests/jsonencoder_ut/jsonencoder_ut.cpp:115:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_2(, MULTITREE_HANDLE, MultiTree_Create, MULTITREE_CLONE_FUNCTION, cloneFunction, MULTITREE_FREE_FUNCTION, freeFunction)
+                         ^
+serializer/tests/methodreturn_ut/methodreturn_ut.c:39:23: error: syntax error [syntaxError]
+    MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                      ^
+serializer/tests/multitree_ut/multitree_ut.cpp:177:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_1(, void*, gballoc_malloc, size_t, size)
+                         ^
+serializer/tests/schemalib_ut/schemalib_ut.cpp:279:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_1(, CODEFIRST_RESULT, CodeFirst_Init, const char*, overrideSchemaNamespace)
+                         ^
+serializer/tests/schemalib_without_init_ut/schemalib_without_init_ut.cpp:241:26: error: syntax error [syntaxError]
+    MOCK_STATIC_METHOD_1(, CODEFIRST_RESULT, CodeFirst_Init, const char*, overrideSchemaNamespace)
+                         ^
+serializer/tests/serializer_dt_int/serializer_dt_int.c:98:19: error: syntax error [syntaxError]
+MOCKABLE_FUNCTION(, void, on_desired_property_double15, void*, v);
+                  ^
+serializer/tests/serializer_dt_ut/serializer_dt_ut.c:60:23: error: syntax error [syntaxError]
+    MOCKABLE_FUNCTION(, JSON_Value*, json_parse_string, const char *, string);
+                      ^
+serializer/tests/serializer_e2e/serializer_e2e.c:213:34: style: Condition 'expectedData!=NULL' is always true [knownConditionTrueFalse]
+                if (expectedData != NULL)
+                                 ^
+serializer/tests/serializer_e2e/serializer_e2e.c:205:26: note: Assuming that condition 'expectedData!=NULL' is not redundant
+        if (expectedData != NULL)
+                         ^
+serializer/tests/serializer_e2e/serializer_e2e.c:213:34: note: Condition 'expectedData!=NULL' is always true
+                if (expectedData != NULL)
+                                 ^
+serializer/tests/serializer_e2e/serializer_e2e.c:187:21: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+    size_t needed = snprintf(NULL, 0, "%u", a_plus_b);
+                    ^
+serializer/tests/serializer_e2e/serializer_e2e.c:190:11: warning: %u in format string (no. 1) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+    (void)snprintf(jsonValue, needed + 1, "%u", a_plus_b);
+          ^
+serializer/tests/serializer_e2e/serializer_e2e.c:739:16: style: The scope of the variable 'beginOperation' can be reduced. [variableScope]
+        time_t beginOperation, nowTime;
+               ^
+serializer/tests/serializer_e2e/serializer_e2e.c:739:32: style: The scope of the variable 'nowTime' can be reduced. [variableScope]
+        time_t beginOperation, nowTime;
+                               ^
+serializer/tests/serializer_int/serializer_int.c:708:1: error: There is an unknown macro here somewhere. Configuration is required. If BEGIN_NAMESPACE is a macro then please configure it. [unknownMacro]
+BEGIN_NAMESPACE(basic19)
+^
+testtools/iothub_test/src/iothub_account.c:150:14: warning: sscanf() without field width limits can crash with huge input data. [invalidscanf]
+    else if (sscanf(accountInfo->connString, "HostName=%[^.].%[^;];SharedAccessKeyName=%[^;];SharedAccessKey=%s", accountInfo->iothubName,
+             ^
+testtools/iothub_test/src/iothubtest.c:448:18: warning: sscanf() without field width limits can crash with huge input data. [invalidscanf]
+        else if (sscanf(pszIotConnString, "HostName=%[^.].%[^;];SharedAccessKeyName=*;SharedAccessKey=*", dvhInfo->iotHubName, dvhInfo->hostName + endName - beginName + 1) != 2)
+                 ^
+testtools/iothub_test/src/iothubtest.c:492:18: warning: sscanf() without field width limits can crash with huge input data. [invalidscanf]
+        else if (sscanf(pszconnString, "Endpoint=sb://%[^.].%[^/]/;SharedAccessKeyName=owner;SharedAccessKey=%*s", dvhInfo->partnerName, dvhInfo->partnerHost) != 2)
+                 ^
+testtools/iothub_test/src/iothubtest.c:1751:40: style: Same expression on both sides of '||' because '(data!=NULL)&&(len==0)' and '(len==0)&&(data!=NULL)' represent the same value. [knownConditionTrueFalse]
+        ((len == 0) && (data != NULL)) ||
+                                       ^
+serializer/src/agenttypesystem.c:3859:0: style: The function 'AgentDataType_GetComplexTypeField' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:701:0: style: The function 'Create_AGENT_DATA_TYPE_from_DOUBLE' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:233:0: style: The function 'Create_AGENT_DATA_TYPE_from_EDM_BINARY' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:170:0: style: The function 'Create_AGENT_DATA_TYPE_from_EDM_DATE_TIME_OFFSET' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:216:0: style: The function 'Create_AGENT_DATA_TYPE_from_EDM_GUID' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:934:0: style: The function 'Create_AGENT_DATA_TYPE_from_FLOAT' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:2699:0: style: The function 'Create_AGENT_DATA_TYPE_from_MemberPointers' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:719:0: style: The function 'Create_AGENT_DATA_TYPE_from_SINT16' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:737:0: style: The function 'Create_AGENT_DATA_TYPE_from_SINT32' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:755:0: style: The function 'Create_AGENT_DATA_TYPE_from_SINT64' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:774:0: style: The function 'Create_AGENT_DATA_TYPE_from_SINT8' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:153:0: style: The function 'Create_AGENT_DATA_TYPE_from_UINT8' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:954:0: style: The function 'Create_AGENT_DATA_TYPE_from_charz' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:985:0: style: The function 'Create_AGENT_DATA_TYPE_from_charz_no_quotes' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:135:0: style: The function 'Create_EDM_BOOLEAN_from_int' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:656:0: style: The function 'Create_EDM_DECIMAL_from_charz' is never used. [unusedFunction]
+
+^
+serializer/src/agenttypesystem.c:2310:0: style: The function 'Create_NULL_AGENT_DATA_TYPE' is never used. [unusedFunction]
+
+^
+serializer/src/dataserializer.c:31:0: style: The function 'DataSerializer_Decode' is never used. [unusedFunction]
+
+^
+serializer/src/dataserializer.c:11:0: style: The function 'DataSerializer_Encode' is never used. [unusedFunction]
+
+^
+iothub_client/tests/common_device_method_e2e/iothubclient_common_device_method_e2e.c:247:0: style: The function 'DeviceMethodWithUploadCallback' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:209:0: style: The function 'Device_CancelTransaction' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:324:0: style: The function 'Device_CommitTransaction_ReportedProperties' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:71:0: style: The function 'Device_Create' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:269:0: style: The function 'Device_CreateTransaction_ReportedProperties' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:125:0: style: The function 'Device_Destroy' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:354:0: style: The function 'Device_DestroyTransaction_ReportedProperties' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:183:0: style: The function 'Device_EndTransaction' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:231:0: style: The function 'Device_ExecuteCommand' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:250:0: style: The function 'Device_ExecuteMethod' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:366:0: style: The function 'Device_IngestDesiredProperties' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:157:0: style: The function 'Device_PublishTransacted' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:296:0: style: The function 'Device_PublishTransacted_ReportedProperty' is never used. [unusedFunction]
+
+^
+serializer/src/iotdevice.c:138:0: style: The function 'Device_StartTransaction' is never used. [unusedFunction]
+
+^
+testtools/iothub_test/src/iothub_account.c:1135:0: style: The function 'IoTHubAccount_GetMessagingHandle' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_client_edge.c:60:0: style: The function 'IoTHubClient_EdgeHandle_Create' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_client_ll_uploadtoblob.c:221:0: style: The function 'IoTHubClient_LL_UploadToBlob_Create' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_client_ll_uploadtoblob.c:904:0: style: The function 'IoTHubClient_LL_UploadToBlob_Destroy' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_client_ll_uploadtoblob.c:878:0: style: The function 'IoTHubClient_LL_UploadToBlob_Impl' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_client_ll_uploadtoblob.c:951:0: style: The function 'IoTHubClient_LL_UploadToBlob_SetOption' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_deviceconfiguration.c:1023:0: style: The function 'IoTHubDeviceConfiguration_Destroy' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_module_client.c:103:0: style: The function 'IoTHubModuleClient_DeviceMethodInvokeAsync' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_module_client_ll.c:340:0: style: The function 'IoTHubModuleClient_LL_DeviceMethodInvoke' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothub_module_client_ll.c:356:0: style: The function 'IoTHubModuleClient_LL_ModuleMethodInvoke' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_registrymanager.c:2024:0: style: The function 'IoTHubRegistryManager_DeleteModule' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_registrymanager.c:177:0: style: The function 'IoTHubRegistryManager_FreeDeviceExMembers' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_registrymanager.c:1596:0: style: The function 'IoTHubRegistryManager_GetDevice' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_registrymanager.c:1856:0: style: The function 'IoTHubRegistryManager_GetDeviceList' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_registrymanager.c:2040:0: style: The function 'IoTHubRegistryManager_GetModuleList' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_registrymanager.c:1756:0: style: The function 'IoTHubRegistryManager_UpdateDevice_Ex' is never used. [unusedFunction]
+
+^
+iothub_service_client/src/iothub_service_client_auth.c:235:0: style: The function 'IoTHubServiceClientAuth_CreateFromSharedAccessSignature' is never used. [unusedFunction]
+
+^
+testtools/iothub_test/src/iothubtest.c:1365:0: style: The function 'IoTHubTest_ListenForEventAsync' is never used. [unusedFunction]
+
+^
+testtools/iothub_test/src/iothubtest.c:1746:0: style: The function 'IoTHubTest_SendMessage' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothubtransport.c:344:0: style: The function 'IoTHubTransport_GetLock' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothubtransport.c:417:0: style: The function 'IoTHubTransport_JoinWorkerThread' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothubtransport.c:402:0: style: The function 'IoTHubTransport_SignalEndWorkerThread' is never used. [unusedFunction]
+
+^
+iothub_client/src/iothubtransport.c:374:0: style: The function 'IoTHubTransport_StartWorkerThread' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_http_e2e/iothubclient_http_e2e.c:85:0: style: The function 'IoTHub_HTTP_LL_CanSend_2000_smallest_messages_batched_Message' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_http_e2e/iothubclient_http_e2e.c:94:0: style: The function 'IoTHub_HTTP_LL_CanSend_2000_smallest_messages_batched_with_properties_Message' is never used. [unusedFunction]
+
+^
+serializer/src/jsonencoder.c:189:0: style: The function 'JSONEncoder_CharPtr_ToString' is never used. [unusedFunction]
+
+^
+serializer/src/multitree.c:594:0: style: The function 'MultiTree_GetLeafValue' is never used. [unusedFunction]
+
+^
+iothub_client/samples/pnp/common/pnp_device_client_ll.c:56:0: style: The function 'PnP_CreateDeviceClientLLHandle' is never used. [unusedFunction]
+
+^
+iothub_client/samples/pnp/common/pnp_protocol.c:41:0: style: The function 'PnP_CreateReportedProperty' is never used. [unusedFunction]
+
+^
+iothub_client/samples/pnp/common/pnp_protocol.c:62:0: style: The function 'PnP_CreateReportedPropertyWithStatus' is never used. [unusedFunction]
+
+^
+iothub_client/samples/pnp/common/pnp_protocol.c:105:0: style: The function 'PnP_CreateTelemetryMessageHandle' is never used. [unusedFunction]
+
+^
+iothub_client/samples/pnp/common/pnp_protocol.c:83:0: style: The function 'PnP_ParseCommandName' is never used. [unusedFunction]
+
+^
+iothub_client/samples/pnp/common/pnp_protocol.c:280:0: style: The function 'PnP_ProcessTwinData' is never used. [unusedFunction]
+
+^
+provisioning_client/src/prov_device_client.c:272:0: style: The function 'Prov_Device_Get_Provisioning_Payload' is never used. [unusedFunction]
+
+^
+provisioning_client/src/prov_device_client.c:257:0: style: The function 'Prov_Device_Set_Provisioning_Payload' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_msgr_ut/iothubtr_amqp_msgr_ut.c:492:0: style: The function 'TEST_message_create_from_iothub_message' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_uploadtoblob_e2e/iothubclient_uploadtoblob_e2e.c:105:0: style: The function '_Bool_Compare' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_uploadtoblob_e2e/iothubclient_uploadtoblob_e2e.c:110:0: style: The function '_Bool_ToString' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_uploadtoblob_e2e/iothubclient_uploadtoblob_e2e.c:93:0: style: The function 'bool_Compare' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_uploadtoblob_e2e/iothubclient_uploadtoblob_e2e.c:98:0: style: The function 'bool_ToString' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/common_prov_e2e/common_prov_e2e.c:119:0: style: The function 'construct_device_id' is never used. [unusedFunction]
+
+^
+provisioning_client/src/sec_device_module_tpm.c:97:0: style: The function 'convert_key_to_string' is never used. [unusedFunction]
+
+^
+provisioning_client/src/sec_device_module_tpm.c:635:0: style: The function 'dev_auth_tpm_interface_desc' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_capabilities.c:104:0: style: The function 'deviceCapabilities_isIotEdgeCapable' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_capabilities.c:122:0: style: The function 'deviceCapabilities_setIotEdgeCapable' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_registration_state.c:195:0: style: The function 'deviceRegistrationState_getCreatedDateTime' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_registration_state.c:211:0: style: The function 'deviceRegistrationState_getDeviceId' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_registration_state.c:259:0: style: The function 'deviceRegistrationState_getErrorCode' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_registration_state.c:275:0: style: The function 'deviceRegistrationState_getErrorMessage' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_registration_state.c:227:0: style: The function 'deviceRegistrationState_getRegistrationStatus' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_device_registration_state.c:243:0: style: The function 'deviceRegistrationState_getUpdatedDateTime' is never used. [unusedFunction]
+
+^
+iothub_client/samples/iothub_client_sample_mqtt_dm/Template/template.cpp:37:0: style: The function 'device_factoryreset' is never used. [unusedFunction]
+
+^
+iothub_client/samples/iothub_client_sample_mqtt_dm/Template/template.cpp:22:0: style: The function 'device_get_firmware_update_state' is never used. [unusedFunction]
+
+^
+iothub_client/samples/iothub_client_sample_mqtt_dm/Template/template.cpp:12:0: style: The function 'device_get_serial_number' is never used. [unusedFunction]
+
+^
+iothub_client/tests/common_e2e/iothubclient_common_e2e.c:1912:0: style: The function 'e2e_c2d_svc_fault_ctrl_AMQP_shut_down' is never used. [unusedFunction]
+
+^
+iothub_client/tests/common_e2e/iothubclient_common_e2e.c:1206:0: style: The function 'e2e_send_batch_event_test_sas' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:921:0: style: The function 'enrollmentGroup_getAttestationMechanism' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:1103:0: style: The function 'enrollmentGroup_getCreatedDateTime' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:960:0: style: The function 'enrollmentGroup_getInitialTwin' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:1010:0: style: The function 'enrollmentGroup_getIotHubHostName' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:1065:0: style: The function 'enrollmentGroup_getProvisioningStatus' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:1119:0: style: The function 'enrollmentGroup_getUpdatedDateTime' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:937:0: style: The function 'enrollmentGroup_setAttestationMechanism' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:1042:0: style: The function 'enrollmentGroup_setEtag' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:1081:0: style: The function 'enrollmentGroup_setProvisioningStatus' is never used. [unusedFunction]
+
+^
+provisioning_service_client/tests/provisioning_service_client_ut/provisioning_service_client_ut.c:758:0: style: The function 'expected_calls_mallocAndStrcpy_overwrite' is never used. [unusedFunction]
+
+^
+provisioning_client/src/prov_transport_amqp_common.c:253:0: style: The function 'get_error_retry_after' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/common_prov_e2e/prov_hsm/provisioning_hsm.c:44:0: style: The function 'hsm_client_key_deinit' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/common_prov_e2e/prov_hsm/provisioning_hsm.c:38:0: style: The function 'hsm_client_key_init' is never used. [unusedFunction]
+
+^
+provisioning_client/samples/custom_hsm_example/custom_hsm_example.c:57:0: style: The function 'hsm_client_tpm_deinit' is never used. [unusedFunction]
+
+^
+provisioning_client/samples/custom_hsm_example/custom_hsm_example.c:52:0: style: The function 'hsm_client_tpm_init' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:618:0: style: The function 'individualEnrollment_getAttestationMechanism' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:888:0: style: The function 'individualEnrollment_getCreatedDateTime' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:724:0: style: The function 'individualEnrollment_getDeviceCapabilities' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:756:0: style: The function 'individualEnrollment_getDeviceId' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:691:0: style: The function 'individualEnrollment_getDeviceRegistrationState' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:657:0: style: The function 'individualEnrollment_getInitialTwin' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:795:0: style: The function 'individualEnrollment_getIotHubHostName' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:850:0: style: The function 'individualEnrollment_getProvisioningStatus' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:904:0: style: The function 'individualEnrollment_getUpdatedDateTime' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:634:0: style: The function 'individualEnrollment_setAttestationMechanism' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:707:0: style: The function 'individualEnrollment_setDeviceCapabilities' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:827:0: style: The function 'individualEnrollment_setEtag' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_enrollment.c:866:0: style: The function 'individualEnrollment_setProvisioningStatus' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_twin.c:395:0: style: The function 'initialTwin_setDesiredProperties' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_twin.c:337:0: style: The function 'initialTwin_setTags' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/common_prov_e2e/prov_hsm/provisioning_hsm.c:72:0: style: The function 'iothub_hsm_key_create' is never used. [unusedFunction]
+
+^
+iothub_service_client/tests/iothub_devicetwin_ut/iothub_devicetwin_ut.c:205:0: style: The function 'my_STRING_c_str' is never used. [unusedFunction]
+
+^
+serializer/src/schemalib.c:64:0: style: The function 'serializer_setconfig' is never used. [unusedFunction]
+
+^
+iothub_client/tests/common_e2e/iothubclient_common_e2e.c:1111:0: style: The function 'service_received_the_message' is never used. [unusedFunction]
+
+^
+serializer/tests/codefirst_cpp_ut/c_bool_size.c:7:0: style: The function 'sizeof_bool' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:728:0: style: The function 'tlsio_openssl_get_interface_description' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubclient_fuzz_amqp/iothubclient_fuzz.c:723:0: style: The function 'tlsio_schannel_get_interface_description' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_tpm_attestation.c:102:0: style: The function 'tpmAttestation_create' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_tpm_attestation.c:69:0: style: The function 'tpmAttestation_fromJson' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_tpm_attestation.c:135:0: style: The function 'tpmAttestation_getEndorsementKey' is never used. [unusedFunction]
+
+^
+provisioning_service_client/src/provisioning_sc_tpm_attestation.c:31:0: style: The function 'tpmAttestation_toJson' is never used. [unusedFunction]
+
+^
+provisioning_client/src/sec_device_module_tpm.c:130:0: style: The function 'tpm_codec_get_endorsement_key_cmd' is never used. [unusedFunction]
+
+^
+provisioning_client/src/sec_device_module_tpm.c:114:0: style: The function 'tpm_codec_get_srk_cmd' is never used. [unusedFunction]
+
+^
+provisioning_client/src/sec_device_module_tpm.c:146:0: style: The function 'tpm_codec_store_key_cmd' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_msgr_ut/iothubtr_amqp_msgr_ut.c:1016:0: style: The function 'umock_are_equal_AMQP_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1729:0: style: The function 'umock_are_equal_BINARY_DATA' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1760:0: style: The function 'umock_are_equal_TELEMETRY_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/hsm_client_tpm_ut/hsm_client_tpm_ut.c:137:0: style: The function 'umock_are_equal_TPMA_SESSION' is never used. [unusedFunction]
+
+^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:574:0: style: The function 'umock_are_equal_data' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_msgr_ut/iothubtr_amqp_msgr_ut.c:1043:0: style: The function 'umock_copy_AMQP_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1738:0: style: The function 'umock_copy_BINARY_DATA' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1787:0: style: The function 'umock_copy_TELEMETRY_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/hsm_client_tpm_ut/hsm_client_tpm_ut.c:166:0: style: The function 'umock_copy_TPMA_SESSION' is never used. [unusedFunction]
+
+^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:583:0: style: The function 'umock_copy_data' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_msgr_ut/iothubtr_amqp_msgr_ut.c:1068:0: style: The function 'umock_free_AMQP_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1747:0: style: The function 'umock_free_BINARY_DATA' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1812:0: style: The function 'umock_free_TELEMETRY_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/hsm_client_tpm_ut/hsm_client_tpm_ut.c:189:0: style: The function 'umock_free_TPMA_SESSION' is never used. [unusedFunction]
+
+^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:592:0: style: The function 'umock_free_data' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_msgr_ut/iothubtr_amqp_msgr_ut.c:1009:0: style: The function 'umock_stringify_AMQP_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1722:0: style: The function 'umock_stringify_BINARY_DATA' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtr_amqp_tel_msgr_ut/iothubtr_amqp_tel_msgr_ut.c:1753:0: style: The function 'umock_stringify_TELEMETRY_MESSENGER_MESSAGE_DISPOSITION_INFO' is never used. [unusedFunction]
+
+^
+provisioning_client/tests/hsm_client_tpm_ut/hsm_client_tpm_ut.c:130:0: style: The function 'umock_stringify_TPMA_SESSION' is never used. [unusedFunction]
+
+^
+iothub_client/tests/uamqp_messaging_ut/uamqp_messaging_ut.c:567:0: style: The function 'umock_stringify_data' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:511:0: style: The function 'umocktypes_are_equal_HTTP_PROXY_IO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportamqp_ut/iothubtransportamqp_ut.c:212:0: style: The function 'umocktypes_are_equal_TLSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:226:0: style: The function 'umocktypes_are_equal_WSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:403:0: style: The function 'umocktypes_copy_HTTP_PROXY_IO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportamqp_ut/iothubtransportamqp_ut.c:117:0: style: The function 'umocktypes_copy_TLSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:115:0: style: The function 'umocktypes_copy_WSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:459:0: style: The function 'umocktypes_free_HTTP_PROXY_IO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportamqp_ut/iothubtransportamqp_ut.c:162:0: style: The function 'umocktypes_free_TLSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:174:0: style: The function 'umocktypes_free_WSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:471:0: style: The function 'umocktypes_stringify_HTTP_PROXY_IO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportamqp_ut/iothubtransportamqp_ut.c:176:0: style: The function 'umocktypes_stringify_TLSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+iothub_client/tests/iothubtransportmqtt_ws_ut/iothubtransportmqtt_ws_ut.c:186:0: style: The function 'umocktypes_stringify_WSIO_CONFIG_ptr' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
